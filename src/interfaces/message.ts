@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 interface MessageInterface {
-  statusCode: Number,
-  message: String,
-  data: any
+  statusCode: number;
+  message: string;
+  data: unknown;
 }
